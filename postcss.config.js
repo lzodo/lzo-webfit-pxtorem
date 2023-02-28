@@ -2,7 +2,7 @@ module.exports = {
   plugins: {
     // 兼容浏览器，添加前缀
     autoprefixer: {
-      overrideBrowserslist: [
+      overrideBrowserslist: [ //覆盖浏览器列表
         "Android 4.1",
         "iOS 7.1",
         "Chrome > 31",

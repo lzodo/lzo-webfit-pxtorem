@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <div class="message">message</div>
   </div>
 </template>
 
@@ -19,5 +20,14 @@ h1{
   width: 750px;
   height: 750px;
   background: #f00;
+  box-sizing: border-box;
+  display:grid;
 }
+.message{
+  display: flex;
+}
+::placeholder {
+  color: gray;
+}
+
 </style>
